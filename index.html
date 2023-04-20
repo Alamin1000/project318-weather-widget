@@ -30,10 +30,241 @@
   </head>
 
   <body>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-    voluptates corporis placeat delectus cumque dolorem similique vel non ab!
-    Rerum, libero pariatur eveniet quas possimus blanditiis non illum iure
-    excepturi.
+    <div class="container">
+      <div class="weather-container">
+        <!-- arabic -->
+        <div
+          class="weather__row w-100 rtl"
+          style="direction: rtl; text-align: right"
+        >
+          <div class="row gy-3">
+            <div class="col-xl-7">
+              <div class="weather__display__wrap">
+                <div class="weather__dis__twn">
+                  <div class="town__select-outer">
+                    <select class="nice-select town__select arabic">
+                      <option>بيت لحم</option>
+                      <option>رام الله</option>
+                      <option>القدس</option>
+                      <option>جنين</option>
+                      <option>غزة</option>
+                      <option>طولكرم</option>
+                      <option>الخليل</option>
+                      <option>نابلس</option>
+                    </select>
+                    <img src="images/arrow-vr.png" alt="" class="suffix-icon" />
+                  </div>
+                  <div class="weather__dis__twn__state">
+                    <span class="arabic">اليوم، السبت، 8/4/2023</span>
+                  </div>
+                </div>
+
+                <div class="weather__dis__visual">
+                  <div class="weather__dis__visual__img">
+                    <img src="images/weather-now.png" alt="" />
+                  </div>
+                  <h2 class="mb-0">27°</h2>
+                </div>
+
+                <div class="weather__dis__arn">
+                  <h4>
+                    <span class="nrml"><span class="arabic">غداً</span></span
+                    ><br />
+                    <span class="fw-700"
+                      ><span class="arabic">الأحد</span></span
+                    >
+                  </h4>
+                  <h3>
+                    25° <br />
+                    17°
+                  </h3>
+                </div>
+                <div class="weather__dis__arn">
+                  <h4>
+                    <span class="nrml"
+                      ><span class="arabic">بعد الغد</span></span
+                    >
+                    <br />
+                    <span class="fw-700"
+                      ><span class="arabic">الاثنين</span></span
+                    >
+                  </h4>
+                  <h3>
+                    25° <br />
+                    17°
+                  </h3>
+                </div>
+
+                <div class="ctrl__links">
+                  <a href="#">°F</a>
+                  <a href="#">°C</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="ct__weather__wrap">
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/jod.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 JOD</h5>
+                    <h4 class="mb-0">5.08₪</h4>
+                  </div>
+                </div>
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/eur.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 EUR</h5>
+                    <h4 class="mb-0">3.96₪</h4>
+                  </div>
+                </div>
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/leu.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 LEU</h5>
+                    <h4 class="mb-0">0.80₪</h4>
+                  </div>
+                </div>
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/rub.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 RUB</h5>
+                    <h4 class="mb-0">0.044₪</h4>
+                  </div>
+                </div>
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/usd.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 USD</h5>
+                    <h4 class="mb-0">3.60₪</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- english -->
+        <div class="weather__row w-100">
+          <div class="row gy-3">
+            <div class="col-xl-7">
+              <div class="weather__display__wrap">
+                <div class="weather__dis__twn">
+                  <div class="town__select-outer">
+                    <select class="nice-select town__select">
+                      <option>Bethlehem</option>
+                      <option>Ramallah</option>
+                      <option>Jerusalem</option>
+                      <option>Jenin</option>
+                      <option>Gaza</option>
+                      <option>Tulkarm</option>
+                      <option>Hebron</option>
+                      <option>Nablus</option>
+                    </select>
+                    <img src="images/arrow-vr.png" alt="" class="suffix-icon" />
+                  </div>
+                  <div class="weather__dis__twn__state">
+                    Today, Saturday, 8 apr 2023
+                  </div>
+                </div>
+
+                <div class="weather__dis__visual">
+                  <div class="weather__dis__visual__img">
+                    <img src="images/weather-now.png" alt="" />
+                  </div>
+                  <h2 class="mb-0">27°</h2>
+                </div>
+
+                <div class="weather__dis__arn">
+                  <h4>
+                    <span class="nrml">After Tomorrow</span><br />
+                    <span class="fw-700">Monday</span>
+                  </h4>
+                  <h3>
+                    25° <br />
+                    17°
+                  </h3>
+                </div>
+                <div class="weather__dis__arn">
+                  <h4>
+                    <span class="nrml">Tomorrow</span>
+                    <br />
+                    <span class="fw-700">Sunday</span>
+                  </h4>
+                  <h3>
+                    25° <br />
+                    17°
+                  </h3>
+                </div>
+
+                <div class="ctrl__links">
+                  <a href="#">°F</a>
+                  <a href="#">°C</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="ct__weather__wrap">
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/jod.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 JOD</h5>
+                    <h4 class="mb-0">5.08₪</h4>
+                  </div>
+                </div>
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/eur.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 EUR</h5>
+                    <h4 class="mb-0">3.96₪</h4>
+                  </div>
+                </div>
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/leu.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 LEU</h5>
+                    <h4 class="mb-0">0.80₪</h4>
+                  </div>
+                </div>
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/rub.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 RUB</h5>
+                    <h4 class="mb-0">0.044₪</h4>
+                  </div>
+                </div>
+                <div class="ct__weather">
+                  <div class="ct__weather__flag">
+                    <img src="images/usd.svg" alt="" class="img" />
+                  </div>
+                  <div class="ct__weather__tc">
+                    <h5>1 USD</h5>
+                    <h4 class="mb-0">3.60₪</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- js -->
     <script src="js/jquery-3.6.0.min.js"></script>

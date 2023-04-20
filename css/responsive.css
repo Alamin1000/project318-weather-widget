@@ -1,7 +1,67 @@
 
 
 @media (max-width: 1399px) {
- 
+
+    .weather-container {
+        padding: 60px 0;
+    }
+
+    .ct__weather__tc h4 {
+        font-size: 18px;
+    }
+    .ct__weather__tc h5 {
+        font-size: 15px;
+        margin: 0 0 2px;
+    }
+    .ct__weather__wrap {
+        padding: 7px 15px 8px;
+    }
+    .ct__weather__flag {
+        width: 26px;
+        height: 26px;
+        margin: 0 0 5px;
+    }
+
+    .town__select {
+        font-size: 25px;
+    }
+    .weather__dis__twn__state {
+        margin-top: 4px;
+        font-size: 16px;
+    }
+    .weather__dis__visual__img {
+        width: 70px;
+    }
+    .weather__dis__visual h2 {
+        font-size: 49px;
+    }
+    .weather__dis__visual {
+        gap: 12px;
+    }
+    .weather__display__wrap {
+        padding: 13px 12px;
+        gap: 15px;
+    }
+    .weather__dis__arn h4 {
+        font-size: 11px;
+    }
+    .weather__dis__arn h4 .fw-700 {
+        font-size: 15px;
+    }
+    .weather__dis__arn h3 {
+        font-size: 20px;
+    }
+    .ctrl__links a {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+
+    .town__select .list .option {
+        font-size: 16px;
+    }
+    .town__select .list {
+        padding: 10px 0;
+    }
 }
 
 
@@ -16,15 +76,37 @@
 
 
 @media (max-width: 768px) {
- 
+    .weather__display__wrap {
+        flex-wrap: wrap;
+    }
+
+    .weather__dis__twn {
+        width: 45%;
+    }
+    .weather__dis__visual {
+        width: 45%;
+    }
 }
 
 
 @media (max-width: 575px) {
- 
+    .ct__weather__wrap {
+        padding: 7px 10px 8px;
+    }
+
+    .weather__dis__twn {
+        width: 100%;
+    }
+    .weather__dis__visual {
+        width: 100%;
+    }
+
+    .ct__weather__tc h4 {
+        font-size: 16px;
+    }
 }
 
 
-@media (max-width: 390px) {
- 
+@media (max-width: 370px) {
+
 }
